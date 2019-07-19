@@ -1,0 +1,288 @@
+
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+#page{
+	width:1250px;
+	height:auto;
+	background:url(monkimage.jpg);
+	margin:auto;
+	opacity: 0.9;
+}
+#head{
+	width:1250px;
+	height:150px;
+	background:#0cf1e4;
+	opacity: 0.9;
+}
+#logo{
+	width:230px;
+	height:130px;
+	background:#caf6f7;
+	padding:10px;
+	float:left;
+}
+#he1{
+	width:650px;
+	height:110px;
+	/*background:url(Untitled-1.jpg);*/
+	float:left;
+	background:#caf6f7;
+	padding-top:40px;
+	padding-left:150px;
+}
+#list1{
+	float:left;
+	width: 33%;
+	text-decoration:none;
+	
+	 
+}
+
+#list1 a{
+
+
+}
+
+
+.button1{
+	float : right;
+	text-align : center;
+	width:80px;
+	height:30px;
+	margin-right:40px;
+	margin-top:20px;
+	font-size:15px;
+	border-radius:8px;
+	background:#b1c9e2;
+}
+.button2{
+	float:right;
+	text-align:center;
+	width:80px;
+	height:30px;
+	margin-right:40px;
+	margin-top:20px;
+	font-size:15px;
+	border-radius:8px;
+	background:#b1c9e2;
+}
+#he2{
+	width:200px;
+	height:150px;
+	background:#caf6f7;
+	float:left;
+}
+#nav1{
+	width:1250px;
+	height:50px;
+	background:#caf6f7;
+}
+#about:hover{background:#0f166e;}
+#about{
+	width:20%;
+	height:40px;
+	background:#06f6f9;
+	color:#181154;
+	float:left;
+	text-align:center;
+	font-size:25px;
+	border-radius:20px;
+	padding-top:10px;
+	font-family:Algerian;
+	border-style:bold;
+}
+#cloth:hover{background:#0f166e;}
+#cloth{
+	width:20%;
+	height:40px;
+	background:#77f6fb;
+	color:#181154;
+	float:left;
+	text-align:center;
+	font-size:25px;
+	border-radius:20px;
+	padding-top:10px;
+	font-family:Algerian;
+	border-style:bold;
+}
+#shoe:hover{background:#0f166e;}
+#shoe{
+	width:20%;
+	height:40px;
+	background:#77f6fb;
+	color:#181154;
+	float:left;
+	text-align:center;
+	font-size:25px;
+	border-radius:20px;
+	padding-top:10px;
+	font-family:Algerian;
+	border-style:bold;
+}
+#acce:hover{background:#0f166e;}
+#acce{
+	width:20%;
+	height:40px;
+	background:#77f6fb;
+	color:#181154;
+	float:left;
+	text-align:center;
+	font-size:25px;
+	border-radius:20px;
+	padding-top:10px;
+	font-family:Algerian;
+	border-style:none;
+}
+
+#toy{
+	width:20%;
+	height:40px;
+	background:#ffffff;
+	color:#181154;
+	float:left;
+	text-align:center;
+	font-size:25px;
+	border-radius:20px;
+	padding-top:10px;
+	font-family:Algerian;
+	border-style:none;
+}
+#contact:hover{background:#0f166e;}
+#contact{
+	width:20%;
+	height:40px;
+	background:#77f6fb;
+	color:#181154;
+	float:left;
+	text-align:center;
+	font-size:25px;
+	border-radius:20px;
+	padding-top:10px;
+	font-family:Algerian;
+	border-style:bold;
+}
+
+input[type=text] {
+  width: 120px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  background-position: 10px 10px;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+#img1{
+	width:1250px;
+	height:600px;
+	float:left;
+}
+#des{
+	width:1240px;
+	height:40px;
+	font-size:20px;
+	font-family:Lucida Calligraphy;
+	font-weight:bold;
+	float:left;
+	padding-top:10px;
+	padding-left:20px;
+	
+}
+#imgrow1{
+	width:1250px;
+	height:250px;
+	background:##caf6f7;
+	float:left;
+}
+#sho1{
+	width:300px;
+	height:250px;
+	float:left;
+}
+#sho2{
+	width:300px;
+	height:250px;
+	float:left;
+}
+#sho3{
+	width:300px;
+	height:250px;
+	float:left;
+}
+#des1{
+	width:116.6px;
+	height:250x;
+	background:#caf6f7;
+	float:left;
+}
+#des2{
+	width:116.6px;
+	height:250x;
+	background:#caf6f7;
+	float:left;
+}
+#des3{
+	width:116.6px;
+	height:250x;
+	background:#caf6f7;
+	float:left;
+}
+#imgrow2{
+	width:1250px;
+	height:250px;
+	background:##caf6f7;
+	float:left;
+}
+#sui{
+	width:300px;
+	height:250px;
+	float:left;
+}
+#cot{
+	width:300px;
+	height:250px;
+	float:left;
+}
+#sun{
+	width:300px;
+	height:250px;
+	float:left;
+}
+#des4{
+	width:116.6px;
+	height:250x;
+	background:#caf6f7;
+	float:left;
+}
+#des5{
+	width:116.6px;
+	height:250x;
+	background:#caf6f7;
+	float:left;
+}
+#des6{
+	width:116.6px;
+	height:250x;
+	background:#caf6f7;
+	float:left;
+}
+#foot{
+	width:1250px;
+	height:50px;
+	background:#cfa9dd;
+	font-size:15px;
+	border-style:bold;
+	text-align:center;
+	padding-top:20px;
+	float:left;
+}

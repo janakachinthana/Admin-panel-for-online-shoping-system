@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Home Page</title>
+<link href="style/home1.css" rel="stylesheet" type="text/css">
+<Script src="script/home.js"></script>
+</head>
+
+<body>
+<body background="images1/monkimage.jpg"/>
+<div id ="page">
+<div id ="head">
+<div id ="logo"><img src = "images1/logo_tw.png" width="230" height="130"/></div>
+<div id ="he1">
+	
+	<br/><br/>
+	<form>
+	<input type="text" name="search" placeholder="Search..">
+	</form>
+</div>
+<div id ="he2">
+	<button class= "button1"><a href ="loginP2.html">Login</a></button>
+	<br/><br/><br/>
+	<button class= "button2"><a href="RegistrationP1.html">Sign Up</a></button>
+</div>
+</div>
+
+<div id ="nav1">
+	
+	<div id="toy"><a class="active" href="homep.html"> Home</a></div>
+	<div id="about"><a class="list1" href="about.html" >About Us</a></div>
+	<div id="cloth"><a class="list1" href="contactus1.html"> Contact Us</a></div>
+	<div id="shoe"><a class="list1" href="Shoes.html"> FAQ</a></div>
+	<div id="contact"><a class="list1" href ="admin login.php" onclick="myFunctionj()">Admin panel</a></div>
+	
+</div>
+
+<script>
+	var i=0;
+	var images = [];
+	var time = 3000;
+	
+	images[0] = 'images1/shop1.jpg';
+	images[1] = 'images1/shop2.jpg';
+	images[2] = 'images1/shop3.jpg';
+	images[3] = 'images1/shop4.jpg';
+	images[4] = 'images1/shop5.jpg';
+
+	function changeImg(){
+		document.slide.src = images[i];
+	
+		if(i < images.length -1)
+		{
+			i++;
+		}
+		else
+		{
+			i = 0;
+		}
+		
+		setTimeout("changeImg()", time);
+	}
+	window.onload = changeImg;
+
+</script>
+<img name ="slide" width="1250" height="600">
+
+
+<div id="foot">
+	<p>
+		<a href="www.google.com">|  Copyright  Statement  |</a>
+		<a href="www.facebook.com"><img src="images1/facebook.png" width="30" height="30"/></a>
+		<a href="www.instagram.com"><img src="images1/insta.jpg" width="30" height="30"/></a>
+		<a href="www.twitter.com"><img src="images1/twitter.png" width="30" height="30"/></a>
+		<a href="www.linkedin.com"><img src="images1/lin.png" width="30" height="30"/></a>
+		<a href="www.google.com/gmail"><img src="images1/email.png" width="30" height="30"/></a>
+		<a href="www.pinterest.com"><img src="images1/prin.png" width="30" height="30"/></a>
+		<a href="www.google.com"> |   Privacy  Policy   |</a><a href="www.google.com">|  Terms  and  Condition   |</a>
+	</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,213 @@
+body{
+	
+}
+.maindiv{
+	background-image:url('blur-blurred-background-colors-754082.jpg');
+	background-size: cover;
+	border-style : solid;
+	width:1340px;
+
+}
+.maindiv1{
+	border-style : solid;
+	width:1335px;
+}
+.header{
+	 background-color:black;
+	 width :1335px;
+	 color: darkblue;
+	 opacity:.7;
+}
+.h1-1 {
+  margin:0px ;
+  margin-left:0px;
+  font-size: 45px;
+  font-family:algerian;
+  color:blue;"
+}
+.search1{
+	margin-top:0px;
+	margin-left:0px;
+	
+}
+.search1:hover{
+	background-color:grey;
+	color : black;
+}
+.submit1{
+	margin-top:0px;
+}
+.submit1:hover{
+	background-color:blue;
+	color : white;
+}
+.nav1{
+	
+	width:1345px;
+	margin-bottom:-20px;
+}
+.nav1-ul{
+	margin-left:;
+	list-style-type: none;
+	padding:0;
+	overflow:hidden;
+	opacity:.6;
+	width :1340px;
+	margin-top:0px;
+}
+
+.list1{
+	float:;
+	width: 33%;
+	text-decoration:none;
+	background-color: black;
+	 
+}
+
+.list1 a{
+	display :block;
+	color: white;
+	text-align:center;
+	text-decoration:none;
+	font-size: 24px;
+	border-style : solid;
+	border-radius: 15px;
+
+}
+.list1 a:hover{
+	background-color:darkblue;
+	color:white;
+}
+.list1 a:focus{
+	background-color:darkblue;
+	color:white;
+}
+.active{
+	background-color:darkblue;
+	
+}
+
+.form{
+	margin-top:20px;
+	margin-left:80px;
+}
+.admin-user-name{
+	margin-top:50px;
+	margin-left:20px;
+}
+.password{
+	margin-left:85px;
+}
+.button1{
+	 
+	 text-align : center;
+	 margin-right: 100px;
+	 margin-top : 30px;
+	 
+}
+.button1:hover{
+	background-color:blue;
+	color : white;
+}
+.break-line{
+	padding:0px;
+	margin-left:-80px;
+	margin-top:30px;
+	background-color:white;
+	opacity: .5;
+}
+.button2{
+	 float : right;
+	 text-align : center;
+	 margin-right: 230px;
+	 margin-top : 0px;
+}
+.button2:hover{
+	background-color:blue;
+	color : white;
+}
+
+.add-item{
+	width:500px;
+	height:400px;
+	border-style : solid;
+	background-color:black;
+	margin-top:20px;
+	opacity:.6;
+	color: white;
+}
+
+.footer{
+	 margin-top :15px;
+	 width :1340px;
+	 height:115px;
+	 background-color:black;
+	 color: darkblue;
+	 opacity:.9;
+	
+}
+.li3 {
+	color: white;
+	text-align:center;
+	text-decoration:none;
+	border: 1px solid #e0e0e0;
+	border-radius: 15px;
+	margin-left:0px;
+}
+
+
+ 
+a:hover 
+{  color:#C90;  }
+
+.img2{
+	background-image:url('fb.jpg');
+	background-size:cover;
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img3{
+	background-image:url('insta.jpg');
+	background-size:cover;
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img4{
+	background-image:url('twitter.jpg');
+	background-size:cover;
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img5{
+	background-image:url('in.jpg');
+	background-size:cover;
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img6{
+	background-image:url('visa.jpg');
+	background-size:cover;
+	width: 100px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img7{
+	background-image:url('master.jpg');
+	background-size:cover;
+	width: 100px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img2:hover,.img3:hover, .img4:hover,.img5:hover, .img6:hover, .img7:hover{
+	box-shadow:0 40px 30px rgba(0,0,0,1);
+}

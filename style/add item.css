@@ -1,0 +1,199 @@
+body{
+
+}
+.maindiv{
+	background-image:url('blur-blurred-background-colors-754082.jpg');
+	background-size: cover;
+	border-style : solid;
+	width:1340px;
+}
+.maindiv1{
+	border-style : solid;
+	width:1335px;
+}
+.header{
+	 width :1335px;
+	 background-color: black;
+	 color: darkblue;
+	 opacity:.7;
+}
+.h1-1 {
+  margin:0px ;
+  margin-left:0px;
+  font-size: 45px;
+  font-family:algerian;
+  color:blue;"
+}
+
+.profile{
+	width:80px;
+	height:80px;
+	border-style:solid ;
+	margin-top:-120px;
+	margin-left:1220px;
+	padding:0px;
+}
+.img1{
+	 background-image:url('janaka.jpg');
+	 width :78px; 
+	 height:78px;
+	 margin-top:1px;
+	 margin-left:1px;
+}
+.profile-name{
+	margin-top:0px;
+	margin-left:1220px;
+	color:white;
+}
+
+.nav1{
+	
+	width:1345px;
+	margin-bottom:-20px;
+}
+.nav1-ul{
+	margin-left:;
+	list-style-type: none;
+	padding:0;
+	overflow:hidden;
+	opacity:.6;
+	width :1340px;
+	margin-top:0px;
+}
+
+.list1{
+	float:left;
+	width: 33%;
+	text-decoration:none;
+	background-color: black;
+	 
+}
+
+.list1 a{
+	display :block;
+	color: white;
+	text-align:center;
+	text-decoration:none;
+	font-size: 24px;
+	border-style : solid;
+	border-radius: 15px;
+
+}
+.list1 a:hover{
+	background-color:darkblue;
+	color:white;
+}
+.list1 a:focus{
+	background-color:darkblue;
+	color:white;
+}
+.active{
+	background-color:darkblue;
+	
+}
+.add-item{
+	width:500px;
+	border-style : solid;
+	border-color:white;
+	background-color:black;
+	margin-top:20px;
+	opacity:.8;
+	color:white;
+	text-align:left;
+}
+.select-file{
+
+}
+.file1{}
+.add-button:hover{
+	background-color:darkblue;
+	color:white;	
+}
+.su1:hover{
+	background-color:darkblue;
+	color:white;	
+}
+#code,#name,#price,#discrip,#total,#item,#shiping{
+	font-size:16px;
+	color:blue;
+}
+
+
+h3{
+	margin-left:70px;
+}
+.su1{
+	 
+}
+.footer{
+	 margin-top :15px;
+	 width :1340px;
+	 height:115px;
+	 background-color:black;
+	 color: darkblue;
+	 opacity:.9;
+	
+}
+.li3 {
+	color: white;
+	text-align:center;
+	text-decoration:none;
+	border: 1px solid #e0e0e0;
+	border-radius: 15px;
+	margin-left:0px;
+}
+a:hover {
+	color:#C90;
+}
+
+.img2{
+	background-image:url('fb.jpg');
+	background-size:cover;
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img3{
+	background-image:url('insta.jpg');
+	background-size:cover;
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img4{
+	background-image:url('twitter.jpg');
+	background-size:cover;
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img5{
+	background-image:url('in.jpg');
+	background-size:cover;
+	width: 50px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img6{
+	background-image:url('visa.jpg');
+	background-size:cover;
+	width: 100px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img7{
+	background-image:url('master.jpg');
+	background-size:cover;
+	width: 100px;
+	height: 50px;
+	margin-left:0px;
+	transition:1s;	
+}
+.img2:hover,.img3:hover, .img4:hover,.img5:hover, .img6:hover, .img7:hover{
+	box-shadow:0 40px 30px rgba(0,0,0,1);
+}
